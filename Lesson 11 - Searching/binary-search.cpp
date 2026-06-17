@@ -92,7 +92,7 @@ void findAllOccurrences(int arr[], int size, int index, int target) {
     }
 
     cout << "\nElement " << target << " found!" << endl;
-
+/*
     // trace the left side
     int i = index;
     while (i >= 0 && arr[i] == target) {
@@ -110,4 +110,5 @@ void findAllOccurrences(int arr[], int size, int index, int target) {
         cout << k << " ";
     }
     cout << endl;
+    */
 }
